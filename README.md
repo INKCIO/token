@@ -5,7 +5,8 @@ npm install -g truffle
 
 # truffle unbox tutorialtoken
 
-npm install zeppelin-solidity
+npm install
 
+truffle compile
 
 ```

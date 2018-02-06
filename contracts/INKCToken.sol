@@ -8,9 +8,9 @@ contract INKCToken is StandardToken {
 
     string public symbol = "INKC";
 
-    uint8 public decimals = 8;
+    uint8 public decimals = 18;
 
-    uint public INITIAL_SUPPLY = 210 * (10 ** decimals);;
+    uint256 public INITIAL_SUPPLY = 21000000000 * (10 ** 18);
 
     function INKCToken() public {
         totalSupply_ = INITIAL_SUPPLY;
